@@ -1,0 +1,65 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+/* CSS Variables */
+:root {
+    --primary-font: "Roboto Flex", sans-serif;
+    --secondary-font: "Kalam", cursive;
+    --primary-color: #ffbd5b; /* dark brown */
+    --secondary-color: #6fe4f3; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+body {
+    font-family: var(--primary-font);
+    padding-top: 70px; /* Padding to remove overlay of nav bar */
+    background-color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+/* Nav Bar */
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
+}
+
+.nav-link {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    color: var(--highlight-color);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #329db8 !important;
+}
+
+.form-control {
+    border-radius: 20px 0 0 20px;
+}
+
+.btn-outline-light {
+    border-radius: 0 20px 20px 0;
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+
+.carousel {
+    margin-top: 20px;
+    border: 2px solid var(--highlight-color);
+    Padding: 2px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
