@@ -46,36 +46,74 @@
             </div>
         </div>
     </nav>
+    <section id="abc-edi" class="container">
+        <h1 class="text-center">ABC's of EDI</h1>
+        <p>Equality, diversity and inclusion (EDI) are terms that are often used together, but what do they mean? Here
+            we
+            explore the ABC's of EDI, breaking down some of the key terms and concepts that are important to understand
+            when it comes to creating a more inclusive workplace.</p>
 
-    <!-- Bootstrap JS Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/f9685659b9.js" crossorigin="anonymous"></script>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/Letter-A.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Letter-B.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Letter-C.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="assets/images/Letter-D.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Letter-E.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
+            <!-- Bootstrap JS Link -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous">
+            </script>
+
+            <!-- Font Awesome -->
+            <script src="https://kit.fontawesome.com/f9685659b9.js" crossorigin="anonymous"></script>
+
+            <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+            <script>
+                document
+                    .querySelectorAll(".navbar-collapse .nav-link")
+                    .forEach((link) => {
+                        link.addEventListener("click", function (e) {
+                            let section = document.querySelector(e.target.getAttribute("href"));
+                            if (section) {
+                                e.preventDefault(); // Prevent default anchor click behavior
+                                let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                                window.scroll({
+                                    top: section.offsetTop -
+                                    navbarHeight, // Adjust for navbar height
+                                    behavior: "smooth",
+                                });
+                                document
+                                    .querySelector(".navbar-collapse")
+                                    .classList.remove("show"); // Collapse navbar
+                            }
                         });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script>
+                    });
+            </script>
 </body>
 
 </html>
