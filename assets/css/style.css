@@ -113,11 +113,10 @@ h3 {
     background-position: 50% 20%; /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
-#hero-abc {
-    height: 500px;
+.hero-abc {
+    max-height: 400px;
     width: 100%;
-    margin-top: 0;
-    background: url("../images/Hero-abc.jpg") no-repeat center center/cover;
+    object-fit: cover;
     position: relative;
     background-position: 50% 40%; /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
@@ -162,13 +161,12 @@ h3 {
     position: relative;
 }
 
-.carousel-dark-control-icon-filter:  invert(1) grayscale(100);
-/* .carousel-control-prev-icon {
+.carousel-control-prev-icon {
     background-color: rgb(61, 61, 61);
 }
 .carousel-control-next-icon {
     background-color: rgb(61, 61, 61);
-} */
+}
 
 
 /* Accordian */
