@@ -150,6 +150,7 @@ h3 {
 .abc-edi {
     margin-top: 20px;
     padding: 20px;
+    background-color: black;
 }
 #carouselExample {
     margin-top: 20px;
@@ -160,6 +161,14 @@ h3 {
     margin-right: auto;
     position: relative;
 }
+
+.carousel-dark-control-icon-filter:  invert(1) grayscale(100);
+/* .carousel-control-prev-icon {
+    background-color: rgb(61, 61, 61);
+}
+.carousel-control-next-icon {
+    background-color: rgb(61, 61, 61);
+} */
 
 
 /* Accordian */
