@@ -12,15 +12,14 @@
     /* light brown */
     --highlight-color: #416a8e;
     /* blue */
-    --highlight-color-light: #7a9fc2;
+    --text-color: #053b6e;
     /* light blue */
 }
 
 body {
     font-family: var(--primary-font);
-    padding-top: 58px;
-    /* Padding to remove overlay of nav bar */
     background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 h1,
@@ -141,6 +140,26 @@ h3 {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* Accordian */
+.accordian-intro {
+    margin-top: 20px;
+
+}
+.accordion-button {
+    font-size: 2rem;
+}
+
+.accordion-item {
+    color: var(--highlight-color);
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
 }
 
 /* Media query: tablets and larger (768px and up) */
