@@ -1,0 +1,54 @@
+time="2025-01-14T13:01:42.959587165Z" level=info msg="registered new token" host=codeinstitute-ide.net kind=gitpod reuse="REUSE_WHEN_POSSIBLE" scopes=map[function:accessCodeSyncStorage:{} function:closePort:{} function:controlAdmission:{} function:deleteEnvVar:{} function:generateNewGitpodToken:{} function:getDefaultWorkspaceImage:{} function:getGitpodTokenScopes:{} function:getIDToken:{} function:getLoggedInUser:{} function:getOpenPorts:{} function:getSupportedWorkspaceClasses:{} function:getTeams:{} function:getToken:{} function:getWorkspace:{} function:getWorkspaceEnvVars:{} function:getWorkspaceOwner:{} function:getWorkspaceTimeout:{} function:getWorkspaceUsers:{} function:guessGitTokenScopes:{} function:isWorkspaceOwner:{} function:openPort:{} function:sendHeartBeat:{} function:setEnvVar:{} function:setWorkspaceTimeout:{} function:stopWorkspace:{} function:takeSnapshot:{} function:trackEvent:{} function:updateGitStatus:{} function:waitForSnapshot:{} resource:contentBlob::*::create/get:{} resource:envVar::*/**::update:{} resource:envVar::*/*::update:{} resource:envVar::JakeCRichards/Vocabulary-of-EDI::create/get/update/delete:{} resource:gitpodToken::*::create:{} resource:snapshot::ws-jakecrichar-vocabularyo-mcdtf3s76l7::create:{} resource:token::*::get:{} resource:userStorage::*::create/get/update:{} resource:workspace::jakecrichar-vocabularyo-mcdtf3s76l7::get/update:{} resource:workspaceInstance::0f88d51f-2666-4ecb-8227-a8410884ca9a::get/update/delete:{}] serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:42.959759066Z" level=info msg="connecting to PublicAPI..." endpoint="api.codeinstitute-ide.net:443" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:42.988734525Z" level=info msg="/workspace/.gitpod/content.json does not exist, going to wait for /workspace/.gitpod/ready" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.68957835Z" level=info msg="supervisor: workspace content available" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320} source=from-backup
+time="2025-01-14T13:01:43.689673722Z" level=info msg="supervisor: workspace content available" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.689720163Z" level=info msg="preparing IDE launch" args=[--port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote] entrypoint="/ide/codehelper" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.68970263Z" level=info msg="preparing IDE launch" args=[24000 Open in VS Code on Desktop vscode] entrypoint="/ide-desktop/status" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.689821183Z" level=info msg="start launchIDE" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.689750538Z" level=info msg="file watcher: starting..." location="/workspace/Vocabulary-of-EDI/.gitpod.yml" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.689775331Z" level=info msg="start launchIDE" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.689959334Z" level=info msg="file watcher: started" location="/workspace/Vocabulary-of-EDI/.gitpod.yml" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.790973664Z" level=info msg="file watcher: starting..." location="/workspace/Vocabulary-of-EDI/.gitpod.dockerfile" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.791079805Z" level=info msg="file watcher: started" location="/workspace/Vocabulary-of-EDI/.gitpod.dockerfile" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.952465726Z" level=info msg="IDE readiness took 0.261 seconds" duration=0.261110997 ide=desktop serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.952587803Z" level=info msg="Desktop IDE status: &{vscode://gitpod.gitpod-desktop/workspace/Vocabulary-of-EDI?%7B%22instanceId%22%3A%220f88d51f-2666-4ecb-8227-a8410884ca9a%22%2C%22workspaceId%22%3A%22jakecrichar-vocabularyo-mcdtf3s76l7%22%2C%22gitpodHost%22%3A%22https%3A%2F%2Fcodeinstitute-ide.net%22%2C%22debugWorkspace%22%3Afalse%7D Open in VS Code on Desktop vscode code-desktop}" ide=desktop serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:43.952620506Z" level=info msg="IDE is ready" ide=desktop serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.286977044Z" level=info msg="IDE readiness took 0.597 seconds" duration=0.596834028 ide=web serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.28706933Z" level=info msg="IDE is ready" ide=web serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.287492245Z" level=info msg="starting a task terminal..." command=" HISTFILE=/workspace/.gitpod/cmd-0 history -r; {
+/home/gitpod/.pg_ctl/bin/pg_start > /dev/null
+}" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.288016676Z" level=info msg="started new terminal" alias=ac5c0616-ce53-49aa-a1c4-361d788139af cmd="/bin/bash" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.288099859Z" level=info msg="task terminal has been started" command=" HISTFILE=/workspace/.gitpod/cmd-0 history -r; {
+/home/gitpod/.pg_ctl/bin/pg_start > /dev/null
+}" pid=95 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320} terminal=ac5c0616-ce53-49aa-a1c4-361d788139af
+time="2025-01-14T13:01:44.288147774Z" level=info msg="starting a task terminal..." command=" HISTFILE=/workspace/.gitpod/cmd-1 history -r; {
+. ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
+}" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.28855746Z" level=info msg="started new terminal" alias=0417419b-cac4-4f01-8602-ab36ba49461b cmd="/bin/bash" serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.288636196Z" level=info msg="task terminal has been started" command=" HISTFILE=/workspace/.gitpod/cmd-1 history -r; {
+. ${GITPOD_REPO_ROOT}/.vscode/uptime.sh &
+}" pid=96 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320} terminal=0417419b-cac4-4f01-8602-ab36ba49461b
+time="2025-01-14T13:01:44.994200505Z" level=info msg="localhost proxy has been started" localPort=5432 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.994302531Z" level=info msg="auto-exposing port" localPort=5432 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:01:44.994386161Z" level=info msg="auto-exposed port" localPort=5432 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:10.994317467Z" level=info msg="localhost proxy has been started" localPort=34779 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:10.994412373Z" level=info msg="auto-exposing port" localPort=34779 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:10.994495129Z" level=info msg="auto-exposed port" localPort=34779 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:17.17840523Z" level=info msg="Subscribe entered" SubscribeRequest= serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:17.178515538Z" level=info msg="sending pending notifications" pending=0 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:17.598506Z" level=info msg="new terminal client" alias=0417419b-cac4-4f01-8602-ab36ba49461b serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:05:17.741203931Z" level=info msg="new terminal client" alias=ac5c0616-ce53-49aa-a1c4-361d788139af serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:35.988863758Z" level=info msg="terminal client left" alias=ac5c0616-ce53-49aa-a1c4-361d788139af serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:35.997853968Z" level=info msg="terminal client left" alias=0417419b-cac4-4f01-8602-ab36ba49461b serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:36.033659407Z" level=info msg="Subscriber cancelled" SubscribeRequest= serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:36.033733565Z" level=info msg="Subscribe exited" SubscribeRequest= serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:52.994325339Z" level=info msg="localhost proxy has been started" localPort=46121 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:52.994417496Z" level=info msg="auto-exposing port" localPort=46121 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:52.994503516Z" level=info msg="auto-exposed port" localPort=46121 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:55.981483831Z" level=info msg="Subscribe entered" SubscribeRequest= serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:55.981579775Z" level=info msg="sending pending notifications" pending=0 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:56.796673882Z" level=info msg="new terminal client" alias=ac5c0616-ce53-49aa-a1c4-361d788139af serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:35:56.7966742Z" level=info msg="new terminal client" alias=0417419b-cac4-4f01-8602-ab36ba49461b serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}
+time="2025-01-14T13:38:12.994004156Z" level=info msg="localhost proxy has been stopped" localPort=34779 serviceContext={supervisor commit-d54bd04999de812be44865004d82d62cb72fc320}

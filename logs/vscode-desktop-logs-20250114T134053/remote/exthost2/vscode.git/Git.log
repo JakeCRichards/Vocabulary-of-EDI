@@ -1,0 +1,29 @@
+2025-01-14 13:35:57.054 [info] [main] Log level: Info
+2025-01-14 13:35:57.054 [info] [main] Validating found git in: "git"
+2025-01-14 13:35:57.054 [info] [main] Using git "2.47.0" from "git"
+2025-01-14 13:35:57.054 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-14 13:35:57.054 [info] > git rev-parse --show-toplevel [733ms]
+2025-01-14 13:35:57.054 [info] > git rev-parse --git-dir --git-common-dir [126ms]
+2025-01-14 13:35:57.054 [info] [Model][openRepository] Opened repository: /workspace/Vocabulary-of-EDI
+2025-01-14 13:35:57.057 [info] > git rev-parse --show-toplevel [56ms]
+2025-01-14 13:35:57.057 [info] > git config --get commit.template [60ms]
+2025-01-14 13:35:57.078 [info] > git rev-parse --show-toplevel [16ms]
+2025-01-14 13:35:57.080 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-14 13:35:57.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-01-14 13:35:57.115 [info] > git status -z -uall [16ms]
+2025-01-14 13:35:57.118 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-01-14 13:35:57.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-01-14 13:35:57.147 [info] > git config --get commit.template [5ms]
+2025-01-14 13:35:57.149 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-14 13:35:57.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-01-14 13:35:57.162 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-01-14 13:35:57.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-14 13:35:57.173 [info] > git status -z -uall [4ms]
+2025-01-14 13:35:57.173 [info] > git diff --name-status -z --diff-filter=ADMR 9d0ab168b5630ab2f91258c0c4011000e0b9a25e...refs/remotes/origin/main [8ms]
+2025-01-14 13:35:57.173 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-14 13:35:57.734 [info] > git show --textconv :.gitignore [4ms]
+2025-01-14 13:35:57.735 [info] > git ls-files --stage -- /workspace/Vocabulary-of-EDI/.gitignore [1ms]
+2025-01-14 13:35:57.740 [info] > git cat-file -s 8915c06466ecaef4c64c9b7069c6aa7ad0491b38 [1ms]
+2025-01-14 13:35:57.858 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-14 13:35:58.826 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2025-01-14 13:35:58.826 [warning] [Git][config] git config failed: Failed to execute git

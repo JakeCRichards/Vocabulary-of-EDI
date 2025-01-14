@@ -1,0 +1,27 @@
+2025-01-14 13:05:37.320 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2025-01-14 13:05:37.320 [info] Activation> Extension version: 0.98.0
+2025-01-14 13:05:37.747 [info] Looking for git repository
+2025-01-14 13:05:37.747 [info] Found 0 repositories during activation
+2025-01-14 13:05:37.747 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-14 13:05:37.750 [info] Registering git provider
+2025-01-14 13:05:37.750 [info] Review+0> Validate state in progress
+2025-01-14 13:05:37.750 [info] Review+0> Validating state...
+2025-01-14 13:05:37.838 [info] Found GitHub remote for folder /workspace/Vocabulary-of-EDI
+2025-01-14 13:05:37.840 [info] Trying to use globalState for assignableUsers.
+2025-01-14 13:05:37.845 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-14 13:05:37.845 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-14 13:05:37.956 [info] GlobalState does not exist for assignableUsers.
+2025-01-14 13:06:11.929 [info] Repo state for file:///workspace/Vocabulary-of-EDI changed.
+2025-01-14 13:06:11.929 [info] Repo file:///workspace/Vocabulary-of-EDI has already been setup.
+2025-01-14 13:34:57.496 [info] Review+0> Validate state in progress
+2025-01-14 13:34:57.496 [info] Review+0> Validating state...
+2025-01-14 13:34:57.570 [info] Found GitHub remote for folder /workspace/Vocabulary-of-EDI
+2025-01-14 13:34:57.570 [info] Using in-memory cached assignable users.
+2025-01-14 13:34:57.575 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-14 13:34:57.575 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-14 13:35:02.513 [info] Review+0> Validate state in progress
+2025-01-14 13:35:02.513 [info] Review+0> Validating state...
+2025-01-14 13:35:02.570 [info] Found GitHub remote for folder /workspace/Vocabulary-of-EDI
+2025-01-14 13:35:02.571 [info] Using in-memory cached assignable users.
+2025-01-14 13:35:02.574 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-14 13:35:02.574 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
