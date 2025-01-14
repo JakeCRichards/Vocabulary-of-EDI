@@ -6,15 +6,20 @@
 :root {
     --primary-font: "Roboto Flex", sans-serif;
     --secondary-font: "Kalam", cursive;
-    --primary-color: #ffbd5b; /* dark brown */
-    --secondary-color: #6fe4f3; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-color: #ffbd5b;
+    /* dark brown */
+    --secondary-color: #6fe4f3;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
 }
 
 body {
     font-family: var(--primary-font);
-    padding-top: 70px; /* Padding to remove overlay of nav bar */
+    padding-top: 58px;
+    /* Padding to remove overlay of nav bar */
     background-color: var(--secondary-color);
 }
 
@@ -33,6 +38,12 @@ h3 {
     background-color: var(--primary-color);
 }
 
+.navbar-brand {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
 .nav-link {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -41,8 +52,28 @@ h3 {
     font-size: 1.5rem;
 }
 
+.dropdown-menu {
+    font-family: var(--secondary-font);
+    background-color: var(--primary-color);
+    font-weight: 700;
+    color: var(--highlight-color);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.dropdown-item {
+    font-weight: 700;
+    color: var(--highlight-color);
+
+}
+
 .nav-link:hover {
     color: #329db8 !important;
+}
+
+.dropdown-item:hover {
+    color: #329db8 !important;
+
 }
 
 .form-control {
@@ -55,6 +86,42 @@ h3 {
     border-color: var(--highlight-color);
 }
 
+/* Hero sections */
+
+#hero-home {
+    height: 500px;
+    width: 100%;
+    background: url("../images/Hero-image.webp") no-repeat center center/cover;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+#tips-students {
+    height: 500px;
+    width: 100%;
+    background: url("../images/Diversity-equality-inclusion-SM.webp") no-repeat center center/cover;
+}
+
+
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
+
 .carousel {
     margin-top: 20px;
     border: 2px solid var(--highlight-color);
@@ -62,4 +129,18 @@ h3 {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 700px;
+    }
+}
+
+/* Media query: large laptops (1600px and up) */
+@media screen and (min-width: 1600px) {
+    .hero {
+        height: 900px;
+    }
 }
