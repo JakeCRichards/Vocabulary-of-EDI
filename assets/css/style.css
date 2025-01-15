@@ -169,6 +169,39 @@ h3 {
     
 }
 
+/* Cards */
+.card-sleek {
+    background: linear-gradient(135deg, #5C6BC0   , #573e5e );
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    min-height: 37vh;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 2rem;
+    align-content: center;
+}
+
+.btn-sleek {
+    background-color: #fff;
+    color: #667eea;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-sleek:hover {
+    background-color: #667eea;
+    color: #fff;
+
+}
+
 /* Carousel */
 #carouselExample {
     margin-top: 20px;
