@@ -121,6 +121,22 @@ h3 {
     background-position: 50% 40%; /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
+.staff-hero {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    background-position: 50% 20%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+}
+
+.student-hero {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    background-position: 50% 40%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+}
+
 #tips-students {
     height: 500px;
     width: 100%;
