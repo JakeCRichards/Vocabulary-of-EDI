@@ -204,9 +204,9 @@ h3 {
 
 /* Carousel */
 #carouselExample {
-    margin-top: 20px;
+    margin-top: 10px;
     border: 5px solid var(--highlight-color);
-    width: 100%;
+    width: 90%;
     max-height: 80vh;
     margin-left: auto;
     margin-right: auto;
