@@ -177,7 +177,11 @@ h3 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     margin: 10px;
-    min-height: 37vh;
+    min-height: 20rem;
+}
+
+.card-resources {
+    padding-top: 10px;
 }
 
 .card:hover {
@@ -234,6 +238,13 @@ h3 {
     color: var(--highlight-color);
     font-size: 1.2rem;
 }
+
+/* Resource lists */
+.list-group {
+    margin: auto;
+    padding: 10px;
+}
+
 
 /* Footer */
 footer {
