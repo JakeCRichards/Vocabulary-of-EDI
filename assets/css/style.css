@@ -125,7 +125,8 @@ h3 {
     width: 100%;
     position: relative;
     background: url("../images/Hero-image.webp") no-repeat center center/cover;
-    background-position: 50% 20%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+    background-position: 50% 20%;
+    /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
 .hero-abc,
@@ -134,7 +135,8 @@ h3 {
     width: 100%;
     object-fit: cover;
     position: relative;
-    background-position: 50% 40%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+    background-position: 50% 40%;
+    /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
 .staff-hero {
@@ -142,7 +144,8 @@ h3 {
     width: 100%;
     object-fit: cover;
     position: relative;
-    background-position: 50% 20%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+    background-position: 50% 20%;
+    /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
 .student-hero {
@@ -150,7 +153,8 @@ h3 {
     width: 100%;
     object-fit: cover;
     position: relative;
-    background-position: 50% 40%; /* 50% horizontally (center), 30% vertically (closer to the top) */
+    background-position: 50% 40%;
+    /* 50% horizontally (center), 30% vertically (closer to the top) */
 }
 
 #cover-text {
@@ -178,12 +182,12 @@ h3 {
 
 .vocab-logo {
     max-height: 200px;
-    
+
 }
 
 /* Index Cards */
 .card-sleek {
-    background: linear-gradient(135deg, var(--highlight-color)   , #573e5e );
+    background: linear-gradient(135deg, var(--highlight-color), #573e5e);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -228,6 +232,7 @@ h3 {
 .carousel-control-prev-icon {
     background-color: rgb(61, 61, 61);
 }
+
 .carousel-control-next-icon {
     background-color: rgb(61, 61, 61);
 }
@@ -238,6 +243,7 @@ h3 {
     margin-top: 20px;
 
 }
+
 .accordion-button {
     font-size: 2rem;
 }
@@ -249,7 +255,7 @@ h3 {
 
 /* Resource lists */
 .card-resources {
-    background: linear-gradient(135deg, var(--highlight-color)   , #573e5e );
+    background: linear-gradient(135deg, var(--highlight-color), #573e5e);
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -271,11 +277,11 @@ footer {
     background-color: #343a40;
     color: #fff;
     padding: 1rem;
-  }
+}
 
-  .social-icons a {
+.social-icons a {
     font-size: 1.25rem;
-  }
+}
 
 /* Media query: tablets and larger (768px and up) */
 /* @media screen and (min-width: 768px) {
