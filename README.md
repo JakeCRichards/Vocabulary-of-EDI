@@ -1,131 +1,245 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mental Health Awareness
 
-Welcome Jake Richards,
+Website project by Jake Richards
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+1. [Introduction](#introduction)
+2. [Planning](#planning)
+3. [Development](#development)
+4. [Deployment](#deployment)
+5. [Testing](#testing)
+6. [Features](#features)
+7. [Site Contents](#contents)
+8. [Repository & Project Board](#repository)
+9. [Sources](#sources)
+10. [Full Screenshots](#screenshots)
 
-## Gitpod Reminders
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The website makes use of HTML, CSS, bootstrap and a little JS. It's split into 5 pages with a home page. This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstrap - Individual Project.
 
-`python3 -m http.server`
+![Website on Devices](assets/images/readme/devices.png)
 
-A blue button should appear to click: _Make Public_,
+## Planning
 
-Another blue button should appear to click: _Open Browser_.
+### Design & Purpose
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+This website is to provide a calm and welcoming design, which is fully responsive and compatible with all device form factors. It should offer resources to educate the public about mental health conditions, symptoms, treatments, and data about mental health conditions.
 
-A blue button should appear to click: _Make Public_,
+The website is designed to be intuitive and easy to use, with simple navigation and information which is well organized and easy to browse.
 
-Another blue button should appear to click: _Open Browser_.
+The main users are expected to be people who are seeking information and guidance about mental health. this will be people who are suffering from mental health problems or people who are concerned about there loved ones. The site should have a comprehensive array of information and guidance.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Stories
 
-To log into the Heroku toolbelt CLI:
+- As a businessman, I want to access the website on my mobile device, so that I can get information on the go.
+- As a visitor, I want to find resources for self-care, so that I can take steps to improve my own mental health.
+- As a parent, I want to learn about mental health, so that I can better understand mental health issues.
+- As a public servant, I want to find contact information for mental health services, so that I can seek help if needed.
+- As a patient, I want to read personal stories and testimonials, so that I can feel connected and less alone in my experiences.
+- As a husband/wife, I want to find information on how to support someone with mental health issues, so that I can help my loved ones.
+- As a gas-lighter, I am looking for extensive resources on mental health conditions to help hone my craft
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Project board
 
-### Connecting your Mongo database
+A project board was used during development.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+[Github Project Board](https://github.com/users/JakeCRichards/projects/5)
 
-------
+### Wireframe
 
-## Release History
+The website was changed between planning and release. this was done since there were problems with the planned layout which were found after the website was developed.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Site Wireframe](assets/images/readme/site-wireframe.png)
 
-**June 18, 2024,** Add Mongo back into template
+## Development
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+The website was developed using HTML & CSS with the bootstrap framework.
 
-**May 28 2024:** Fix Mongo and Links installs
+There was also some JS used to control the Nav Bar and form submission modal.
 
-**April 26 2024:** Update node version to 16
+A project board was set up and used during development.
 
-**September 20 2023:** Update Python version to 3.9.17.
+A github repo was used for version control.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The website uses thorough customization of styling for the bootstrap classes.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The home page was created first and this was used as template for the other pages. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+An AI (copilot) was used to generate the sites content and assist in development. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The website is deployed to github pages. This is very simple process.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Navigate to your github repo, click settings and navigate to pages. Then you simply select the branch and then save.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Github Pages](assets/images/readme/deploy-pages.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The website was thoroughly tested before completion.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Manual code review to find bugs
+- Manual code review to check accessability requirements eg. alt text on images
+- check site with W3S HTML/CSS validator
+- All links work and external links open in a new tab
+- Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
+- Manually test hosted site
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Validation
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Pass W3s HTML Validator with no errors/warnings
+- Pass CSS validator with no errors/warnings
+- Score 95% on google lighthouse
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Known Bugs
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+There are currently no known bugs
 
-------
+## features
 
-## FAQ about the uptime script
+<!-- The website has many features like displaying mental health tips throughout the site.
 
-**Why have you added this script?**
+- Navigation bar
+  - Responsive with all form factors
+  - Has links to all pages
+  - Has a dropdown menu for navigation within pages
+  - Has a button for to toggle dark mode which is persistent across pages
+- Header
+  - Fixed position with the page scrolling over it
+  - There is a typewriter effect implemented using javascript
+- Footer
+  - Has 3 columns of links, one for external links, another for social media and for the address
+  - The footer is always at the the bottom of the page using mt-auto
+  - The footer contains a contact us button which opens a modal form
+- Home Page
+  - 4 sections with a brief description of each page
+  - The first section has 4 cards which describe the 4 sections on the learning page and have a button that links to the Relevant section
+  - The testimonials section has a description of the page and a profile card from a testimonial which links to the page
+  - The caring section has 2 images with overlays and a button which links to relevant section of the caring page
+  - The statistics section brief descriptions with images which link to the relevant section
+- Learning Page
+   -Has a tabbed layout to keep the page organized and easy to navigate
+   -The first tab has responsive cards
+   -The other tabs have an accordion to keep information organized and avoid overwhelming users
+ -Testimonials Page
+   -Has a button with a pop-up modal form to share your own testimony 
+   -Has four cards with a profile of the left and the testimony on the right
+ -Caring page
+   -Has two sections with an introduction, one for self-care and one for caring for others
+   -Each section has responsive cards and image with a zoom effect on hover
+ -Statistics
+  - Has two sections, a brief article and some interactive graphs which are embedded from "ourworldindata" -->
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Contents
 
-**How will this affect me?**
+<!-- ### Navigation bar + Hero
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The website contains a Navbar with a logo & brand name on the left. Links to all pages and a dropdown menu for in-page navigation are on the right, alongside a button for toggling dark mode.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### Desktop View
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Navbar & hero on desktop](assets/images/readme/desktop-hero.png)
 
-**So….?**
+#### Mobile view
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Navbar & hero on phone](assets/images/readme/phone-hero.png)
 
-**Can I opt out?**
+### footer
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The footer contains a button to open a contact form modal, helpful links to external resources, as well as, the usual contact information, social media links & address.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Desktop view of footer](assets/images/readme/desktop-footer.png)
 
-**Anything more?**
+#### The contact form modal
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Contact form modal](assets/images/readme/contact-form.png)
 
----
+### Content Pages
 
-Happy coding!
+The user can access a large variety of relevant content on the site. The home page displays a brief introduction to each page along with links that lead the relevant section on that page.
+
+#### Learning
+
+This page is designed to give the user a large amount of information but well organized and presented to prevent overwhelming the user and allow easy navigation. This is achieved through the use of a tabbed interface and accordion to keep the information organized.
+
+The first tab is arranged into responsive cards with the other tabs using an accordion.
+
+##### The learning page - basics tab
+
+![The learning page - basics tab](assets/images/readme/learning-page-basics.png)
+
+##### The learning page - common-issues tab
+
+![The learning page - common issues](assets/images/readme/learning-page-common-issues.png)
+
+#### Testimonials
+
+The testimonials page contains some past stories from previous users. This helps to build trust and credibility and reassure the user that this is site for them. They can also be used receive authentic feedback and highlight key benefits of the site.
+
+the site uses custom cards with a profile view on the left. It also contains a modal form for allowing users to submit there own testimonial.
+
+![The testimonials page - desktop view](assets/images/readme/desktop-testimonials.png)
+
+![Modal form - submit testimonial](assets/images/readme/desktop-form-testimonial.png)
+
+#### Caring
+
+The caring page is split into two pages, self-care & caring for others. The pages are made up of a short article along-side responsive cards for quick absorbing of information.  
+
+![The caring page - desktop view](assets/images/readme/desktop-caring.png)
+
+#### Statistics
+
+The statistics page contains a brief article followed by interactive graphs.  
+
+![The statistics page - desktop view](assets/images/readme/desktop-statistics.png) -->
+
+# Repository
+
+The Github repo can be found here.
+
+[Github Repo](https://github.com/JakeCRichards/Vocabulary-of-EDI)
+
+The project Board can be found here.
+
+[Github Project Board](https://github.com/users/JakeCRichards/projects/5)
+
+## sources
+
+All code was either coded by me or suggested by copilot.
+
+Some snippets of code came from ChatGPT
+
+## screenshots
+
+<!-- ### Homepage full Mobile
+
+![Full Mobile Screenshot](assets/images/readme/home-full-mobile.png)
+
+### Homepage Full Desktop
+
+![Full Desktop Screenshot](assets/images/readme/home-full-desktop.png)
+
+### Homepage Full Tablet
+
+![Full Tablet Screenshot](assets/images/readme/home-full-tablet.png)
+
+### Testimonials Full Desktop
+
+![Testimonials Page](assets/images/readme/testimonials-full.png)
+
+### Statistics Full Desktop
+
+![Statistics Page](assets/images/readme/statistics-full.png)
+
+### Learning Full Desktop
+
+![Learning Page](assets/images/readme/learning-full.png)
+
+### Caring Full Desktop
+
+![Caring Page](assets/images/readme/caring-full.png) -->
