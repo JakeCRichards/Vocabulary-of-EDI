@@ -91,9 +91,24 @@ The website was thoroughly tested before completion.
 
 ### Validation
 
-- Pass W3s HTML Validator with no errors/warnings
-- Pass CSS validator with no errors/warnings
-- Score 95% on google lighthouse
+- Pass W3s HTML Validator 
+
+![Validation index](assets/images/readme/validation-1.png)
+![Github Pages](assets/images/readme/validation-2.png)
+![Github Pages](assets/images/readme/validation-3.png)
+![Github Pages](assets/images/readme/validation-4.png)
+![Github Pages](assets/images/readme/validation-5.png)
+
+- Pass CSS validator with no errors.
+- The only warning came from using variables
+
+![CSS Validation](assets/images/readme/css-validation.png)
+![CSS Warnings](assets/images/readme/css-validation-warning.png)
+
+- Score 99 on google lighthouse on desktop mode and 90 on mobile for index.html
+
+![Lighthouse](assets/images/readme/lighthouse-test-desktop.png)
+![Lighthouse](assets/images/readme/lighthouse-test-mobile.png)
 
 ### Known Bugs
 
@@ -101,102 +116,11 @@ There are currently no known bugs
 
 ## features
 
-<!-- The website has many features like displaying mental health tips throughout the site.
 
-- Navigation bar
-  - Responsive with all form factors
-  - Has links to all pages
-  - Has a dropdown menu for navigation within pages
-  - Has a button for to toggle dark mode which is persistent across pages
-- Header
-  - Fixed position with the page scrolling over it
-  - There is a typewriter effect implemented using javascript
-- Footer
-  - Has 3 columns of links, one for external links, another for social media and for the address
-  - The footer is always at the the bottom of the page using mt-auto
-  - The footer contains a contact us button which opens a modal form
-- Home Page
-  - 4 sections with a brief description of each page
-  - The first section has 4 cards which describe the 4 sections on the learning page and have a button that links to the Relevant section
-  - The testimonials section has a description of the page and a profile card from a testimonial which links to the page
-  - The caring section has 2 images with overlays and a button which links to relevant section of the caring page
-  - The statistics section brief descriptions with images which link to the relevant section
-- Learning Page
-   -Has a tabbed layout to keep the page organized and easy to navigate
-   -The first tab has responsive cards
-   -The other tabs have an accordion to keep information organized and avoid overwhelming users
- -Testimonials Page
-   -Has a button with a pop-up modal form to share your own testimony 
-   -Has four cards with a profile of the left and the testimony on the right
- -Caring page
-   -Has two sections with an introduction, one for self-care and one for caring for others
-   -Each section has responsive cards and image with a zoom effect on hover
- -Statistics
-  - Has two sections, a brief article and some interactive graphs which are embedded from "ourworldindata" -->
 
 ## Contents
 
-<!-- ### Navigation bar + Hero
 
-The website contains a Navbar with a logo & brand name on the left. Links to all pages and a dropdown menu for in-page navigation are on the right, alongside a button for toggling dark mode.
-
-#### Desktop View
-
-![Navbar & hero on desktop](assets/images/readme/desktop-hero.png)
-
-#### Mobile view
-
-![Navbar & hero on phone](assets/images/readme/phone-hero.png)
-
-### footer
-
-The footer contains a button to open a contact form modal, helpful links to external resources, as well as, the usual contact information, social media links & address.
-
-![Desktop view of footer](assets/images/readme/desktop-footer.png)
-
-#### The contact form modal
-
-![Contact form modal](assets/images/readme/contact-form.png)
-
-### Content Pages
-
-The user can access a large variety of relevant content on the site. The home page displays a brief introduction to each page along with links that lead the relevant section on that page.
-
-#### Learning
-
-This page is designed to give the user a large amount of information but well organized and presented to prevent overwhelming the user and allow easy navigation. This is achieved through the use of a tabbed interface and accordion to keep the information organized.
-
-The first tab is arranged into responsive cards with the other tabs using an accordion.
-
-##### The learning page - basics tab
-
-![The learning page - basics tab](assets/images/readme/learning-page-basics.png)
-
-##### The learning page - common-issues tab
-
-![The learning page - common issues](assets/images/readme/learning-page-common-issues.png)
-
-#### Testimonials
-
-The testimonials page contains some past stories from previous users. This helps to build trust and credibility and reassure the user that this is site for them. They can also be used receive authentic feedback and highlight key benefits of the site.
-
-the site uses custom cards with a profile view on the left. It also contains a modal form for allowing users to submit there own testimonial.
-
-![The testimonials page - desktop view](assets/images/readme/desktop-testimonials.png)
-
-![Modal form - submit testimonial](assets/images/readme/desktop-form-testimonial.png)
-
-#### Caring
-
-The caring page is split into two pages, self-care & caring for others. The pages are made up of a short article along-side responsive cards for quick absorbing of information.  
-
-![The caring page - desktop view](assets/images/readme/desktop-caring.png)
-
-#### Statistics
-
-The statistics page contains a brief article followed by interactive graphs.  
-
-![The statistics page - desktop view](assets/images/readme/desktop-statistics.png) -->
 
 # Repository
 
@@ -212,34 +136,7 @@ The project Board can be found here.
 
 All code was either coded by me or suggested by copilot.
 
-Some snippets of code came from ChatGPT
+Some snippets of code came from ChatGPT, including the js 
 
 ## screenshots
 
-<!-- ### Homepage full Mobile
-
-![Full Mobile Screenshot](assets/images/readme/home-full-mobile.png)
-
-### Homepage Full Desktop
-
-![Full Desktop Screenshot](assets/images/readme/home-full-desktop.png)
-
-### Homepage Full Tablet
-
-![Full Tablet Screenshot](assets/images/readme/home-full-tablet.png)
-
-### Testimonials Full Desktop
-
-![Testimonials Page](assets/images/readme/testimonials-full.png)
-
-### Statistics Full Desktop
-
-![Statistics Page](assets/images/readme/statistics-full.png)
-
-### Learning Full Desktop
-
-![Learning Page](assets/images/readme/learning-full.png)
-
-### Caring Full Desktop
-
-![Caring Page](assets/images/readme/caring-full.png) -->
