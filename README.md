@@ -17,7 +17,11 @@ Website project by Jake Richards
 
 ## Introduction
 
-The website makes use of HTML, CSS, bootstrap and a little JS. It's split into 5 pages with a home page. This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstrap - Individual Project.
+I created EDI Vocab Hub as a website to provide some basic information about Equality, Diversity and Inclusion (EDI) in a way that's accessible for both adults and young people - contextualised into a school setting. 
+
+The website makes use of HTML, CSS, bootstrap and limited JS. It's split into 5 pages with a home page. 
+
+This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstrap - Individual Project.
 
 ![Website on Devices](assets/images/readme/devices.png)
 
@@ -89,6 +93,14 @@ The website was thoroughly tested before completion.
 - Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
 - Manually test hosted site
 
+### Responsiveness
+
+I tested for responsiveness using [Am I responsive](https://ui.dev/amiresponsive?url=https://jakecrichards.github.io/Vocabulary-of-EDI/)
+
+which generated this image displaying my website across multiple devices:
+
+![Github Pages](assets/images/readme/responsiveness-testing.png)
+
 ### Validation
 
 - Pass W3s HTML Validator 
@@ -114,7 +126,7 @@ The website was thoroughly tested before completion.
 
 There are currently no known bugs
 
-## features
+## Features
 
 
 
@@ -122,7 +134,7 @@ There are currently no known bugs
 
 
 
-# Repository
+## Repository
 
 The Github repo can be found here.
 
@@ -132,11 +144,11 @@ The project Board can be found here.
 
 [Github Project Board](https://github.com/users/JakeCRichards/projects/5)
 
-## sources
+## Sources
 
 All code was either coded by me or suggested by copilot.
 
 Some snippets of code came from ChatGPT, including the js 
 
-## screenshots
+## Screenshots
 
