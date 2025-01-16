@@ -52,7 +52,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control form-control-search me-2" type="search" placeholder="Search not functional currently" aria-label="Search not functional currently">
                     <button class="btn btn-outline-light" type="submit">Search</button>
                 </form>
             </div>
@@ -83,7 +83,7 @@
                     <h2>Books</h2>
                     <p>These books are suggested to have a read if you can. </p>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <h3>Racism</h3>
                             <ul class="list-group">
                                 <li class="list-group-item">Why I'm No Longer Talking to White People About Race by Reni
@@ -95,7 +95,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <h3>Feminism</h3>
                             <ul class="list-group">
                                 <li class="list-group-item">We Should All Be Feminists by Chimamanda Ngozi Adichie</li>
@@ -104,7 +104,7 @@
                             </ul>
 
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-3">
                             <h3>LGBTQIA+</h3>
                             <ul class="list-group">
                                 <li class="list-group-item">The Gender Games by Juno Dawson</li>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 card card-resources">
+                <div class="col-12 col-md-5 my-3 card-resources">
                     <h2>Films</h2>
                     <ul class="list-group">
                         <li class="list-group-item">The Color Purple</li>
@@ -127,7 +127,7 @@
 
                     </ul>
                 </div>
-                <div class="col-12 col-md-6 card card-resources">
+                <div class="col-12 col-md-5 my-3 card card-resources">
                     <h2>Magazines & Articles</h2>
                     <ul class="list-group">
                         <li class="list-group-item">The Guardian - Race Equality</li>
@@ -171,12 +171,38 @@
                 </div>
             </div>
         </section>
-        <section>
 
+
+        <!-- Suggestion form section -->
+        <section id="Contact-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-center">
+                    <h2>Send in suggestions</h2>
+                    <p>Do you have any suggestions for resources to add to this list? Please fill in the form below and
+                        we'll get back to you as soon as possible.</p>
+                    <form action="#" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                                                        <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button-outline">Submit</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class="mt-auto">
+    <footer class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-6 text-start m-auto">

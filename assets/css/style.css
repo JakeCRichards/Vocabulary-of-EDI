@@ -86,21 +86,33 @@ h3 {
     color: black !important;
 }
 
-.form-control {
+.form-control-search {
     border-radius: 20px 0 0 20px;
 }
 
+/* buttons */
 .btn-outline-light {
     border-radius: 0 20px 20px 0;
-    color: var(--highlight-color);
-    border-color: var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
 }
 
 .btn-outline-light:hover {
     border-radius: 0 20px 20px 0;
-    color: #a7d2dd;
-    border-color: #329db8;
+    background-color: #053b6e;
+    color: white;
+}
+
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    padding: 7px 25px;
+    background-color: #053b6e;
+    color: white;
+}
+
+.custom-button-outline:hover {
     background-color: var(--highlight-color);
+    color: white;
 }
 
 /* Hero sections */
@@ -169,19 +181,15 @@ h3 {
     
 }
 
-/* Cards */
+/* Index Cards */
 .card-sleek {
-    background: linear-gradient(135deg, #5C6BC0   , #573e5e );
+    background: linear-gradient(135deg, var(--highlight-color)   , #573e5e );
     color: #fff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     margin: 10px;
     min-height: 20rem;
-}
-
-.card-resources {
-    padding-top: 10px;
 }
 
 .card:hover {
@@ -240,9 +248,21 @@ h3 {
 }
 
 /* Resource lists */
-.list-group {
+.card-resources {
+    background: linear-gradient(135deg, var(--highlight-color)   , #573e5e );
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
     margin: auto;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: auto;
+}
+
+.card-resources li {
+    background-color: transparent;
+    color: #fff;
 }
 
 
