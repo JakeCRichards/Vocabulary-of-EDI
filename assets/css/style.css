@@ -38,7 +38,8 @@ h3 {
 /* Nav Bar */
 
 .navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: var(--primary-color);
 }
 
@@ -133,7 +134,8 @@ h3 {
 .resources-hero {
     max-height: 400px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: relative;
     background-position: 50% 40%;
     /* 50% horizontally (center), 30% vertically (closer to the top) */
@@ -142,7 +144,8 @@ h3 {
 .staff-hero {
     max-height: 500px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: relative;
     background-position: 50% 20%;
     /* 50% horizontally (center), 30% vertically (closer to the top) */
@@ -151,7 +154,8 @@ h3 {
 .student-hero {
     max-height: 500px;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: relative;
     background-position: 50% 40%;
     /* 50% horizontally (center), 30% vertically (closer to the top) */
@@ -187,28 +191,39 @@ h3 {
 
 /* Index Cards */
 .card-sleek {
+    background: -o-linear-gradient(315deg, var(--highlight-color), #573e5e);
     background: linear-gradient(135deg, var(--highlight-color), #573e5e);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     margin: 10px;
     min-height: 20rem;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
 }
 
 .card-body {
     padding: 2rem;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 .btn-sleek {
     background-color: #fff;
     color: #2446D6;
     font-weight: bold;
+    -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
@@ -255,11 +270,17 @@ h3 {
 
 /* Resource lists */
 .card-resources {
+    background: -o-linear-gradient(315deg, var(--highlight-color), #573e5e);
     background: linear-gradient(135deg, var(--highlight-color), #573e5e);
     color: #fff;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -282,16 +303,3 @@ footer {
     font-size: 1.25rem;
 }
 
-/* Media query: tablets and larger (768px and up) */
-/* @media screen and (min-width: 768px) {
-    .hero {
-        height: 700px;
-    }
-} */
-
-/* Media query: large laptops (1600px and up)
-@media screen and (min-width: 1600px) {
-    .hero {
-        height: 900px;
-    }
-} */
