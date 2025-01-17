@@ -29,7 +29,15 @@ This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstra
 
 ### Design & Purpose
 
+I designed this website to be a hub of information to inform others about some of the important vocabulary surrounding EDI, give tips to both staff and students about how to better respect others and celebrate their differences, as well as signpost resources for users to continue their learning journey. 
 
+The website needed to feel clean, not overwhelming with terminology and text from the start, with clear signposting for usage to be understood by both adults and young people. 
+
+I chose the original colours from an early image I found:
+
+![Diversity image](assets/images/Diversity-equality-inclusion-SM.webp)
+
+I found the colour palette visually pleasing and could provide sufficient contrast to those with visual impairment (VI).
 
 ### User Stories
 
@@ -137,23 +145,37 @@ I could potentially improve the hero images on the additional pages by overlayin
 
 ## Features
 
-Carousel
+Carousel - I employed the use of a bootstrap carousel to display a graphic version of the alphabet with each letter representing a different term under the genre of EDI. I felt this was a good way to display a large amount of information in a visually pleasing way.
 
-Accordian
+Accordian - I then employed a bootstrap accordian to give some specific definitions that are important to the context of schools/young people. I chose an accordian because it helped to reduce the appearance of large amounts of text.
 
-Nav Bar
+Nav Bar - The nav bar is a customised bootstrap nav bar, allowing for easy navigation, a good user experience, and branding.
 
-Cards
+Cards - I customised bootstrap cards to present chunks on information in a visually pleasing way. 
 
-Embedded YouTube videos
+Embedded YouTube videos - I chose to embed YouTube videos into the tips pages and resources pages rather than writing out large amounts of text or static images. I felt embedding them would improve the user experience rather than just linking away. 
+
+Form - I created a form on the resources page to allow users to submit their own resources to share. In education, much is made of the community sharing resources and this is a feature that many would utilise to help contribute to build up the bank of resources. I chose to make the submission of this a modal confirmation rather than a whole submission page as I didn't want to direct users away from the resources page for them to have to return back again. 
+
+### Technologies used
+
+HTML5
+
+CSS
+
+JS - limited usage
+
+Bootstrap framework
+
+Balsamiq Wireframing
 
 ## Contents
 
 All content was written either by myself, or for speed was written by ChatGPT/copilot. 
 
-ChatGPT wrote, through careful prompts, the tips for both students and staff.
+ChatGPT wrote, through careful prompts, the tips for both students and staff. This was to speed up time on the project.
 
-ChatGPT also contributed towards the definitions in the ABCs, although this was heavily editted by myself. 
+ChatGPT also contributed towards the definitions in the ABCs, although this was heavily editted by myself to make definitions more appropriately pitched. 
 
 I used the book "An ABC of equality by Chana Ginelle Ewing" to create the carousel. 
 
@@ -173,9 +195,13 @@ All code was either coded by me or suggested by copilot which I then reviewed an
 
 One piece of code came from ChatGPT, which was the js for opening the form submission modal as this is currently beyond my technical abilities.
 
-I also used ChatGPT to help generate the favicon image. 
+I also used ChatGPT to help generate the favicon image/logo. 
 
+Code Institute provided the js code to automatically close the nav bar.
 
+Colour schemes and ideas for bootstrap cards came from www.bootstrapexamples.com
+
+I also relied heavily upon Bootstrap Documentation to better implement components into my project. 
 
 ## Reflections
 
