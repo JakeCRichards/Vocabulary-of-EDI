@@ -13,7 +13,7 @@ Website project by Jake Richards
 7. [Site Contents](#contents)
 8. [Repository & Project Board](#repository)
 9. [Sources](#sources)
-10. [Full Screenshots](#screenshots)
+10. [Reflections](#reflections)
 
 ## Introduction
 
@@ -129,15 +129,33 @@ which generated this image displaying my website across multiple devices:
 
 ### Known Bugs
 
-There are currently no known bugs
+At the moment there are no major bugs identified through my testing. 
+
+I am working on developing the search bar function and so have labelled it under development. 
+
+I could potentially improve the hero images on the additional pages by overlaying text onto a background image rather than just utilising an image with embedded text. 
 
 ## Features
 
+Carousel
 
+Accordian
+
+Nav Bar
+
+Cards
+
+Embedded YouTube videos
 
 ## Contents
 
+All content was written either by myself, or for speed was written by ChatGPT/copilot. 
 
+ChatGPT wrote, through careful prompts, the tips for both students and staff.
+
+ChatGPT also contributed towards the definitions in the ABCs, although this was heavily editted by myself. 
+
+I used the book "An ABC of equality by Chana Ginelle Ewing" to create the carousel. 
 
 ## Repository
 
@@ -159,5 +177,13 @@ I also used ChatGPT to help generate the favicon image.
 
 
 
-## Screenshots
+## Reflections
+
+This project was the first opportunity within coding for me to create something entirely of my own design, to test my skills and abilities, and to see a project through from start to finish. 
+
+I found this to be an enjoyable, if sometimes frustrating project. Most of the time the frustration was caused by a lack of technical skill on my part where I could imagine what i wanted the site to look like but couldn't translate that easily. 
+
+I definitely went beyond the scope of the assignment, mostly through ambition to apply what I've been learning so far. 
+
+Thank you for reading. 
 
