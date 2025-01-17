@@ -1,4 +1,4 @@
-# Mental Health Awareness
+# Equality, Diversity and Inclusion Vocabulary Hub
 
 Website project by Jake Richards
 
@@ -29,28 +29,29 @@ This site is my submission for AI Augmented FullStack Bootcamp HTML/CSS/Bootstra
 
 ### Design & Purpose
 
-This website is to provide a calm and welcoming design, which is fully responsive and compatible with all device form factors. It should offer resources to educate the public about mental health conditions, symptoms, treatments, and data about mental health conditions.
 
-The website is designed to be intuitive and easy to use, with simple navigation and information which is well organized and easy to browse.
-
-The main users are expected to be people who are seeking information and guidance about mental health. this will be people who are suffering from mental health problems or people who are concerned about there loved ones. The site should have a comprehensive array of information and guidance.
 
 ### User Stories
 
-- As a businessman, I want to access the website on my mobile device, so that I can get information on the go.
-- As a visitor, I want to find resources for self-care, so that I can take steps to improve my own mental health.
-- As a parent, I want to learn about mental health, so that I can better understand mental health issues.
-- As a public servant, I want to find contact information for mental health services, so that I can seek help if needed.
-- As a patient, I want to read personal stories and testimonials, so that I can feel connected and less alone in my experiences.
-- As a husband/wife, I want to find information on how to support someone with mental health issues, so that I can help my loved ones.
-- As a gas-lighter, I am looking for extensive resources on mental health conditions to help hone my craft
+In line with Agile methodology, I wrote user stories in the planning and development of my website. The full details of these can be found on my project board.
 
+I considered the following perspectives:
+
+- A first-time visitor
+- A student seeking more information
+- A teacher seeking more information
+- A returning visitor
+- A VI user/someone using a screen reader
+
+![Example User Story](assets/images/readme/user-story.png)
 
 ### Project board
 
 A project board was used during development.
 
 [Github Project Board](https://github.com/users/JakeCRichards/projects/5)
+
+![Project Board](assets/images/readme/project-board.png)
 
 ### Wireframe
 
@@ -72,7 +73,7 @@ The website uses thorough customization of styling for the bootstrap classes.
 
 The home page was created first and this was used as template for the other pages. 
 
-An AI (copilot) was used to generate the sites content and assist in development. 
+An AI (copilot) was used to assist in development. 
 
 ## Deployment
 
@@ -88,14 +89,15 @@ The website was thoroughly tested before completion.
 
 - Manual code review to find bugs
 - Manual code review to check accessability requirements eg. alt text on images
-- check site with W3S HTML/CSS validator
+- Check site with W3S HTML/CSS validator
 - All links work and external links open in a new tab
 - Manually test site locally. for example, rendering issues, images loading, navigation links, scale at breakpoints, check console for errors in dev tools, etc.
 - Manually test hosted site
+- Testing with Dev Tools Lighthouse
 
 ### Responsiveness
 
-I tested for responsiveness using [Am I responsive](https://ui.dev/amiresponsive?url=https://jakecrichards.github.io/Vocabulary-of-EDI/)
+I tested for responsiveness using [Am I responsive?](https://ui.dev/amiresponsive?url=https://jakecrichards.github.io/Vocabulary-of-EDI/)
 
 which generated this image displaying my website across multiple devices:
 
@@ -146,9 +148,9 @@ The project Board can be found here.
 
 ## Sources
 
-All code was either coded by me or suggested by copilot.
+All code was either coded by me or suggested by copilot which I then reviewed and decided whether to implement.
 
-Some snippets of code came from ChatGPT, including the js 
+One piece of code came from ChatGPT, which was the js for opening the form submission modal as this is currently beyond my technical abilities
 
 ## Screenshots
 
