@@ -55,9 +55,12 @@ A project board was used during development.
 
 ### Wireframe
 
-The website was changed between planning and release. this was done since there were problems with the planned layout which were found after the website was developed.
+The website developed from my initial wireframes, with one of the main changes being the splitting of the tips page into two - one for students and one for staff. 
 
-![Site Wireframe](assets/images/readme/site-wireframe.png)
+![Index Wireframe](assets/images/readme/index-wireframe.png)
+![ABC Wireframe](assets/images/readme/ABC-wireframe.png)
+![Tips Wireframe](assets/images/readme/tips-wireframe.png)
+![Resources Wireframe](assets/images/readme/resources-wireframe.png)
 
 ## Development
 
@@ -69,7 +72,7 @@ A project board was set up and used during development.
 
 A github repo was used for version control.
 
-The website uses thorough customization of styling for the bootstrap classes.
+The website uses customisation of styling for the bootstrap classes.
 
 The home page was created first and this was used as template for the other pages. 
 
@@ -150,7 +153,11 @@ The project Board can be found here.
 
 All code was either coded by me or suggested by copilot which I then reviewed and decided whether to implement.
 
-One piece of code came from ChatGPT, which was the js for opening the form submission modal as this is currently beyond my technical abilities
+One piece of code came from ChatGPT, which was the js for opening the form submission modal as this is currently beyond my technical abilities.
+
+I also used ChatGPT to help generate the favicon image. 
+
+
 
 ## Screenshots
 
